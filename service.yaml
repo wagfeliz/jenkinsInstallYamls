@@ -7,6 +7,7 @@ metadata:
       prometheus.io/scrape: 'true'
       prometheus.io/path:   /
       prometheus.io/port:   '8080'
+      metallb.universe.tf/allow-shared-ip: tools
 spec:
   selector: 
     app: jenkins-server
